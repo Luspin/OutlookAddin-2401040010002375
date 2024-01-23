@@ -12,14 +12,14 @@ Office.onReady(async (info) => {
 async function checkEmailSaveStatus() {
     console.log("Checking email save status");
 
-    emailSaveStatusBanner.innerText = "Checking email save status...";
+    emailSaveStatusBanner.textContent  = "Checking email save status...";
 
     if (true) {
-        emailSaveStatusBanner.innerText = "Email has been saved";
+        emailSaveStatusBanner.textContent  = "Email has been saved";
         return;
     }
 
-    emailSaveStatusBanner.innerText = "Email has not been saved";
+    emailSaveStatusBanner.textContent  = "Email has not been saved";
     return;
 
 }
