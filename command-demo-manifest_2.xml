@@ -10,10 +10,10 @@
   <Version>1.0.0.2</Version>
   <ProviderName>Microsoft Outlook Dev Center</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="OutlookAddin-2401040010002375" />
+  <DisplayName DefaultValue="OutlookAddin-2401040010002375-2401040010002375" />
   <Description DefaultValue="Adds command buttons to the ribbon in Outlook"/>
-  <IconUrl DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png" />
-  <HighResolutionIconUrl DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png" />
+  <IconUrl DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png" />
+  <HighResolutionIconUrl DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png" />
   <Hosts>
     <Host Name="Mailbox" />
   </Hosts>
@@ -29,13 +29,13 @@
         <!-- NOTE: Just reusing the read taskpane page that is invoked by the button
              on the ribbon in clients that support add-in commands. You can
              use a completely different page if desired -->
-        <SourceLocation DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
+        <SourceLocation DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
+        <SourceLocation DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -472,22 +472,22 @@
     <Resources>
       <bt:Images>
         <!-- Blue icon -->
-        <bt:Image id="blue-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-16.png"/>
-        <bt:Image id="blue-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-32.png"/>
-        <bt:Image id="blue-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png"/>
+        <bt:Image id="blue-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-16.png"/>
+        <bt:Image id="blue-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-32.png"/>
+        <bt:Image id="blue-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png"/>
         <!-- Red icon -->
-        <bt:Image id="red-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-16.png"/>
-        <bt:Image id="red-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-32.png"/>
-        <bt:Image id="red-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png"/>
+        <bt:Image id="red-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-16.png"/>
+        <bt:Image id="red-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-32.png"/>
+        <bt:Image id="red-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png"/>
         <!-- Green icon -->
-        <bt:Image id="green-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-16.png"/>
-        <bt:Image id="green-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-32.png"/>
-        <bt:Image id="green-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png"/>
+        <bt:Image id="green-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-16.png"/>
+        <bt:Image id="green-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-32.png"/>
+        <bt:Image id="green-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
-        <bt:Url id="readTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
-        <bt:Url id="composeTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
+        <bt:Url id="readTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
+        <bt:Url id="composeTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Add-in Demo"/>
@@ -1047,24 +1047,24 @@
       <Resources>
         <bt:Images>
           <!-- Blue icon -->
-          <bt:Image id="blue-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-16.png"/>
-          <bt:Image id="blue-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-32.png"/>
-          <bt:Image id="blue-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png"/>
+          <bt:Image id="blue-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-16.png"/>
+          <bt:Image id="blue-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-32.png"/>
+          <bt:Image id="blue-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png"/>
           <!-- Red icon -->
-          <bt:Image id="red-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-16.png"/>
-          <bt:Image id="red-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-32.png"/>
-          <bt:Image id="red-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png"/>
+          <bt:Image id="red-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-16.png"/>
+          <bt:Image id="red-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-32.png"/>
+          <bt:Image id="red-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png"/>
           <!-- Green icon -->
-          <bt:Image id="green-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-16.png"/>
-          <bt:Image id="green-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-32.png"/>
-          <bt:Image id="green-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png"/>
+          <bt:Image id="green-icon-16" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-16.png"/>
+          <bt:Image id="green-icon-32" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-32.png"/>
+          <bt:Image id="green-icon-80" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="functionFile" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
-          <bt:Url id="readTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
-          <bt:Url id="composeTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
-          <bt:Url id="restTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
-          <bt:Url id="restMobileTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin/taskpane.html"/>
+          <bt:Url id="functionFile" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
+          <bt:Url id="readTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
+          <bt:Url id="composeTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
+          <bt:Url id="restTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
+          <bt:Url id="restMobileTaskPaneUrl" DefaultValue="https://luspin.github.io/OutlookAddin-2401040010002375/taskpane.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="groupLabel" DefaultValue="Add-in Demo"/>
