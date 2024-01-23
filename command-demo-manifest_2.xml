@@ -10,7 +10,7 @@
   <Version>1.0.0.2</Version>
   <ProviderName>Microsoft Outlook Dev Center</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Add-in Command Demo" />
+  <DisplayName DefaultValue="OutlookAddin-2401040010002375" />
   <Description DefaultValue="Adds command buttons to the ribbon in Outlook"/>
   <IconUrl DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png" />
   <HighResolutionIconUrl DefaultValue="https://luspin.github.io/OutlookAddin/assets/icon-80.png" />
