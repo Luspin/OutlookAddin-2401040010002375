@@ -3,6 +3,7 @@ Office.onReady(async (info) => {
     console.log("Office.onReady called");
 
     let emailSaveStatusBanner = document.getElementById("emailSaveStatusBanner")
+    document.getElementById("saveMailButton").onclick = checkEmailSaveStatus(emailSaveStatusBanner);
 
     if (info.host === Office.HostType.Outlook) {
         await checkEmailSaveStatus(emailSaveStatusBanner);
